@@ -1,4 +1,4 @@
-All kod finns i page.js och där kan du se vad exact har skett och vilka importer som finns
+All kod finns i page.js och där kan du se vad exakt har skett och vilka importer som finns
 
 Har skapat en komponent och det är MovieList som finns i src/app/components/MovieList
 
