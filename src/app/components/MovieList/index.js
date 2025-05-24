@@ -1,6 +1,5 @@
 'use client';
-import {FaTimes} from 'react-icons/fa';
-import Movie  from '../Movies';
+import Movie from '../Movies';
 
 export default function MovieList({ movies, onRemove }) {
 if (movies.length === 0) return <p>Inga filmer tillagda än.</p>;
