@@ -9,19 +9,5 @@ return (
         <Movie key={i} movie={m} index={i} onRemove={onRemove} />
     ))}
     </ul>
-    // <ul className="list-group">
-    // {movies.map((m, i) => (
-    //     <li key={i} className="list-group-item d-flex justify-content-between align-items-center">
-    //     <span>{m.title} {'★'.repeat(m.rating)}</span>
-    //     <button
-    //         onClick={() => onRemove(i)}
-    //         className="btn btn-link text-danger p-0"
-    //         aria-label="Ta bort film"
-    //     >
-    //     <FaTimes className="text-danger" />
-    //     </button>
-    //     </li>
-    // ))}
-    // </ul>
 );
 }
